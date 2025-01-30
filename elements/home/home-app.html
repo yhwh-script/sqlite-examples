@@ -9,7 +9,6 @@
 <script prefer>
     const slot = shadowDocument.querySelector("slot");
     shadowDocument.host.addEventListener('navigate', (e) => {
-        console.log("repl", e.detail)
         slot.replaceChildren(e.detail);
         window.scrollX = 0; // move to top
         window.scrollY = 0;
