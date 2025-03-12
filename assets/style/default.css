@@ -2,7 +2,6 @@
     --ff: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1;
 
-    /* fix for Chrome */
     * {
         box-sizing: border-box;
         margin: 0;
@@ -11,18 +10,10 @@
 
 
 html {
-    padding: 8px;
-
     body {
         background: var(--bg);
         color: var(--c);
         font-family: var(--ff);
-    }
-}
-
-@supports (font-variation-settings: normal) {
-    :root {
-        font-family: InterVariable, sans-serif;
     }
 }
 
