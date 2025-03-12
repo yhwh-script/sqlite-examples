@@ -8,6 +8,4 @@ Please understand that the project structure is leaned on [valid-custom-element-
 
 In `/src/publicApis/index.js` you can define APIs for your custom-elements (for example to the SQLite module) via the window object.
 
-Just call:
-    npm install
-    npm run dev
+Just call `npm install` and `npm run dev`.
