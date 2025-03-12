@@ -13,16 +13,17 @@
     "description": "This is a @yhwh-script app with SQLite and examples.",
     "homepage": "https://github.com/yhwh-script/sqlite-examples#readme",
     "keywords": [
-        "HTML",
-        "JavaScript",
         "CSS",
         "CustomElements",
-        "WebComponents",
+        "HTML",
+        "JavaScript",
+        "OPFS",
         "SFC",
         "Single File Components",
         "SQLite",
         "Vanilla",
-        "Vite"
+        "Vite",
+        "WebComponents"
     ],
     "license": "Unlicense",
     "name": "@yhwh-script/sqlite-examples",
